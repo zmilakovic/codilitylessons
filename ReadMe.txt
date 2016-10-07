@@ -1,1 +1,1 @@
-This are solutions for some of Codility lessons problems submitted in Scala.
+The repository is a collection of solutions for some of the Codility problems submitted in Scala.
