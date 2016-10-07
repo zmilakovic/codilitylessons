@@ -1,0 +1,1 @@
+This are solutions for some of Codility lessons problems submitted in Scala.
