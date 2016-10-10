@@ -117,58 +117,6 @@ object GenomicRangeQuery {
   }
   /** End Solution */
 
-  //  def stringToList(s: String): List[Int] = {
-  //    val v = s.map { char =>
-  //      char match {
-  //        case 'A' => 1
-  //        case 'C' => 2
-  //        case 'G' => 3
-  //        case 'T' => 4
-  //      }
-  //    }
-  //    v.toList.tail
-  //    //      val prefixSum = v.scan(0)((x, sum) => (x + sum))
-  //    //      prefixSum.tail.toList
-  //  }
-
-  //  def getRealElem(prefixSum: Vector[Int], pos: Int): Int = {
-  //    if (pos == 0) {
-  //      prefixSum(0)
-  //    } else {
-  //      prefixSum(pos) - prefixSum(pos - 1)
-  //    }
-  //  }
-
-  //  def getQuerySum(prefixSum: Vector[Int], x: Int, y: Int): Int = {
-  //    prefixSum(y) - prefixSum(x)
-  //  }
-
-  //  def calcPrefixSumLst(lst: List[Int]): List[Int] = {
-  //    //lst.foldLeft((List[Int](), 0))((tuple, el) => (tuple._1 :+ (tuple._2 + el), tuple._2 + el))._1
-  //    val r = new ArrayBuffer[Int] += lst(0)
-  //    var currSum = lst(0)
-  //    for(x <- 1 until lst.length) {
-  //      val newSum = currSum + lst(x)
-  //      r += newSum
-  //    }
-  //    r.toList
-  //  }
-
-  //  def calcPrefixSumLst(lst: List[Int]): List[Int] = {
-  //    
-  //    val r = new ArrayBuffer[Int] += lst(0)
-  //    var currSum = lst(0)
-  //    for (x <- 1 until lst.length) {
-  //      val newSum = currSum + lst(x)
-  //      r += newSum
-  //    }
-  //    r.toList
-  //  }
-  //
-
-  //  def calcSufixSum(v: Vector[Int]): List[Int] = {
-  //    v.foldRight((List[Int](), 0))((el, tuple) => (tuple._1 :+ (tuple._2 + el), tuple._2 + el))._1.reverse
-  //  }
 
   def solution1(S: String, P: Array[Int], Q: Array[Int]): Array[Int] = {
 
